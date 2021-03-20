@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Learning Java">
+    <listeners>
+        <listener class-name="listeners.DotTestListener"/>
+    </listeners>
+
+    <test name="Test main.java.main.java.com.israel.employee.Employee">
+        <classes>
+            <class name="com.israel.employee.EmployeeTest"/>
+        </classes>
+    </test>
+</suite>
